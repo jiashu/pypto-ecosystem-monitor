@@ -50,7 +50,9 @@ flowchart LR
 
 ## GitHub Project
 
-User project **[PyPTO upstream monitor](https://github.com/users/jiashu/projects/3)** is linked to this repository. It contains **draft items** (one per upstream repo) for quick notes—nothing is created on upstream org repos.
+User project **[PyPTO upstream monitor](https://github.com/users/jiashu/projects/3)** is linked to this repository. It contains **draft items** (one per upstream repo) for quick notes, plus **linked issues** from those upstream repos (open and closed). Linking does not create or change issues on upstream—only adds cards on your board.
+
+To refresh the set of linked issues after new upstream issues appear, run `python3 scripts/sync_upstream_issues_to_project.py` (see [MONITORING.md](MONITORING.md)).
 
 See GitHub’s [Projects documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects) for how to add fields (e.g. last checked) or move items across columns.
 
