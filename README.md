@@ -50,7 +50,9 @@ flowchart LR
 
 ## GitHub Project
 
-A [GitHub Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects) titled **PyPTO upstream monitor** (under this user) holds draft items—one per upstream repo—for quick notes without touching those repos.
+User project **[PyPTO upstream monitor](https://github.com/users/jiashu/projects/3)** is linked to this repository. It contains **draft items** (one per upstream repo) for quick notes—nothing is created on upstream org repos.
+
+See GitHub’s [Projects documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects) for how to add fields (e.g. last checked) or move items across columns.
 
 ## Related links
 
