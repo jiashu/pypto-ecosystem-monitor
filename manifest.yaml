@@ -1,0 +1,52 @@
+# Canonical list of upstream repositories tracked by this monitor.
+# Used by README cross-checks and .github/workflows/refresh-upstream-metadata.yml
+# Policy: do not open PRs, issues, tags, or other objects on these repos from this project.
+
+repos:
+  - owner: hengliao1972
+    name: pypto_top_level_design_documents
+    url: https://github.com/hengliao1972/pypto_top_level_design_documents
+    category: docs
+    role: Top-level design notes and design documents for the PyPTO ecosystem.
+
+  - owner: hw-native-sys
+    name: pypto
+    url: https://github.com/hw-native-sys/pypto
+    category: framework
+    role: Community PyPTO programming framework (IR, Python API, codegen path).
+
+  - owner: hw-native-sys
+    name: simpler
+    url: https://github.com/hw-native-sys/simpler
+    category: runtime
+    role: PTO runtime (Levels 0–2); host + AICPU + AICore execution on Ascend / sim.
+
+  - owner: hengliao1972
+    name: pypto_runtime_distributed
+    url: https://github.com/hengliao1972/pypto_runtime_distributed
+    category: runtime
+    role: Linqu distributed runtime (L3–L6); separate from simpler; future ChipBackend bridge.
+
+  - owner: zhangstevenunity
+    name: PTOAS
+    url: https://github.com/zhangstevenunity/PTOAS
+    category: compiler
+    role: PTO assembler / optimizer (LLVM-MLIR PTO dialect, ptoas toolchain).
+
+  - owner: PTO-ISA
+    name: pto-isa
+    url: https://github.com/PTO-ISA/pto-isa
+    category: isa
+    role: PTO virtual ISA / tile library headers and reference kernels.
+
+  - owner: hw-native-sys
+    name: pypto-lib
+    url: https://github.com/hw-native-sys/pypto-lib
+    category: library
+    role: Tensor-level primitive library design / examples on top of pypto.
+
+  - owner: hengliao1972
+    name: pypto-serving
+    url: https://github.com/hengliao1972/pypto-serving
+    category: serving
+    role: PyPTO serving experiments and related design artifacts.
